@@ -9,6 +9,7 @@
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
 const { configure } = require("quasar/wrappers");
+const { presetAttributify, presetUno } = require("unocss");
 
 module.exports = configure(function (/* ctx */) {
   return {
@@ -76,7 +77,7 @@ module.exports = configure(function (/* ctx */) {
         [
           "unocss/vite",
           {
-            // presets: [],
+            presets: [presetAttributify({}), presetUno()],
             theme: {
               colors: {},
               size: {
