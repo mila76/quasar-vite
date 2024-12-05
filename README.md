@@ -1,4 +1,4 @@
-# Quasar App (quasar-vite)
+# Quasar App (quasar-unocss)
 
 A Quasar Project
 
@@ -29,7 +29,6 @@ yarn format
 # or
 npm run format
 ```
-
 
 
 ### Build the app for production

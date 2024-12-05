@@ -18,6 +18,6 @@
 
 <script setup>
 defineOptions({
-  name: 'IndexPage'
-});
+  name: 'IndexPage',
+})
 </script>
